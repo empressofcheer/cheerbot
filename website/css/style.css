@@ -1,0 +1,27 @@
+:root {
+    --main-bg-color:purple;
+    --secondary-bg-color:purple;
+    --main-text-color:purple;
+    --secondary-text-color:purple;
+    --hyperlink-text-color:purple;
+    --hover-link-color:purple;
+    --header-text-color:purple;
+}
+html {
+    display:flex;
+    justify-items: center;    
+}
+.flex-header {
+    display:flex;
+    flex-direction: row;
+}
+
+.dashboard-template {
+    display:flex;
+    flex-direction: column
+}
+
+.flex-footer {
+    display:flex;
+    flex-direction: row
+}
